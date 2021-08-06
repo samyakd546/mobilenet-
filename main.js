@@ -21,7 +21,7 @@ function gotResult(error, results){
     else {
       console.log(results);
       document.getElementById("object").innerHTML = results[0].label;
-      document.getElementById("accuracy").innnerHTML = results[0].confidence.toFixed(3);
+      document.getElementById("accuracy1").innerHTML = results[0].confidence.toFixed(3);
     }
 }
 
